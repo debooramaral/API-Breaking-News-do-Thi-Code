@@ -10,6 +10,10 @@
     },
     "servers": [
         {
+            "url": "https://api-breaking-news-mvtv.onrender.com/doc",
+            "description": "Render Server"
+        },
+        {
             "url": "http://localhost:3000",
             "description": "Local Server"
         }
