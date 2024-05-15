@@ -10,13 +10,4 @@ const connectDatabase = () => {
         );
 };
 
-const connectDatabase2 = () => {
-    mongoose.connect("mongodb+srv://root:root@cluster0.t9zlssk.mongodb.net/",
-        { useNewUrlParser: true, useUnifiedTopology: true })
-        .then(() => console.log("MongoDB Atlas Conectado ²"))
-        .catch((error) => console.log(error)
-        );
-};
-
-export default connectDatabase2;
-//connectDatabase;
+export default connectDatabase;
