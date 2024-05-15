@@ -1,6 +1,5 @@
 import User from "../models/User.js";
 
-debugger
 const createService = (body) => User.create(body);
 
 const findAllService = () => User.find();

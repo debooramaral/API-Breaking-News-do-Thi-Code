@@ -1,5 +1,6 @@
 import express from "express";
-import connectDatabase from "./src/database/db.js";
+// import connectDatabase from "./src/database/db.js";
+import connectDatabase2 from "./src/database/db.js";
 import dotenv from "dotenv";
 
 import userRoute from "./src/routes/user.route.js";
@@ -20,7 +21,8 @@ dotenv.config();
 const port = process.env.PORT || 3000;
 const app = express();
 
-connectDatabase()
+connectDatabase2()
+// connectDatabase()
 app.use(express.json()); //receber arquivos json
 app.use("/user", userRoute); 
 app.use("/auth", authRoute); 
