@@ -31,9 +31,9 @@
                             "examples": {
                                 "Users": {
                                     "value": {
-                                        "name": "Debora Santos",
-                                        "username": "debora s",
-                                        "email": "ds@gmail.com",
+                                        "name": "Aguinaldo",
+                                        "username": "gui",
+                                        "email": "gui@gmail.com",
                                         "password": "12345",
                                         "avatar": "https://imgur.com/a/AYRD3Ci",
                                         "background": "https://images.wallpapersden.com/image/download/menger-sponge-3d-abstract-fractal_a2VuammUmZqaraWkpJRoZWxnrWZsZ20.jpg"
@@ -208,7 +208,7 @@
                             "examples": {
                                 "User": {
                                     "value": {
-                                        "email": "ds@gmail.com",
+                                        "email": "gui@gmail.com",
                                         "password": "12345"
                                     }
                                 }
